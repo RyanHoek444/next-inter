@@ -1,0 +1,18 @@
+export default {
+  hello: 'Hello',
+  'hello.world': 'Hello World!',
+  weather: "Today's weather is {weather}",
+  'user.description': '{name} is {years} years old',
+  'namespace.hello': 'Hello',
+  'namespace.subnamespace.hello': 'Hello',
+  'namespace.subnamespace.hello.world': 'Hello World!',
+  'namespace.subnamespace.weather': "Today's weather is {weather}",
+  'namespace.subnamespace.user.description': '{name} is {years} years old',
+  'only.exists.in.en': 'EN locale',
+  'double.param': 'This {param} is used twice ({param})',
+  'cow#zero': 'No cows (#zero)',
+  'cow#one': 'One cow (#one)',
+  'cow#other': '{count} cows (#other)',
+  'horse#one': 'One horse (#one)',
+  'horse#other': '{count} horses (#other)',
+} as const;

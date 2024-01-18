@@ -1,2 +1,1 @@
-# next-inter
-TS, NEXT
+packages/next-international/README.md
